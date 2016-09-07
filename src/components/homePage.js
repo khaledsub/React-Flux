@@ -7,7 +7,7 @@ var Home = React.createClass({
 		return (
 			<div className="jumbotron">
 				<h1>PS admin</h1>
-				<p>React, RR, Flux for ultra-response</p>
+				<p>React, RR, Flux for ultra-responsive web apps</p>
 			</div>
 		);
 	}

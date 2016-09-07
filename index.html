@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<header>
+		<div><img src="img/logo.gif" /></div>
+		
+		<div>This is a site for A beginner Course</div>
+
+		<nav>
+			<ul>
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="/contact.html">Contact</a></li>
+				<li><a href="/about.html">About</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<form action="http://wilder.azurewebsites.net/echo" method="POST">
+			<label for="searchPhrase">Search Phrase:</label>
+			<input name="searchPhrase" id="searchPhrase" /><br/>
+			<input name="useStars" id="useStars" type="checkbox" checked="true" /><br/>
+			<label for="useStars">Use Stars?</label>
+			<label for="langChoice">Language?</label>
+			<select name="langChoice" id="langCoice">
+				<option>All</option>
+				<option>JavaScript</option>
+				<option selected>Python</option>
+			</select>
+
+	</section>
+
+</body>
+</html>
